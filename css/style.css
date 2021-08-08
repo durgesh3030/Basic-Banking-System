@@ -5,7 +5,7 @@
 	font-family: sans-serif;
 }
 .intro{
-	background: #a0d9e2;
+	background: #d9d9d9;
 }
 h1{
 	color: #4C4B4B;
@@ -42,7 +42,7 @@ footer p{
 	font-size: 15px;
 }
 .bg-color{
-	background-color: #E5FBB8;
+	background-color: #ccdcff;
 }
 
 @media only screen and (orientation:portrait){
@@ -57,3 +57,4 @@ footer p{
 		padding-bottom: 100px;
 	}
 }
+

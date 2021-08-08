@@ -17,7 +17,7 @@
   <?php
   include 'navbar.php';
   ?>
-  
+    
       <div class="container-fluid">
       <!-- Introduction section -->
           
@@ -54,6 +54,7 @@
                   </div>
             </div>
             </div> 
+
       </div>
       <footer class="text-center mt-5 py-2">
         <p>&copy 2020. Made by <b>DURGESH PANDey</b> <br> The Sparks Foundation</p>
