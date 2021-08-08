@@ -5,7 +5,7 @@
 	font-family: sans-serif;
 }
 .intro{
-	background: #EAF0F1;
+	background: #a0d9e2;
 }
 h1{
 	color: #4C4B4B;
@@ -15,6 +15,7 @@ h1{
 h3{
 	color:#2F363F;
 }
+
 button{
 	border:none;
 	border-radius: 8px;
@@ -40,6 +41,10 @@ footer p{
 	margin: 0;
 	font-size: 15px;
 }
+.bg-color{
+	background-color: #E5FBB8;
+}
+
 @media only screen and (orientation:portrait){
 	.intro{
 		display:flex;

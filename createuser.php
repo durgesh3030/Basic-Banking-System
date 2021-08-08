@@ -32,7 +32,7 @@
   include 'navbar.php';
 ?>
 
-        <h2 class="text-center pt-4">Create a User</h2>
+        <h2 class=" pt-4">Create a User</h2>
         <br>
 
   <div class="background">
@@ -47,7 +47,7 @@
       </div>
       <div class="screen-body">
         <div class="screen-body-item left">
-          <img class="img-fluid" src="img/user3.jpg" style="border: none; border-radius: 50%;">
+          <img class="img-fluid" src="img/dpp.png" style="border: none; border-radius: 50%;">
         </div>
         <div class="screen-body-item">
           <form class="app-form" method="post">

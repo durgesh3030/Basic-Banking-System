@@ -5,19 +5,22 @@ button,input {
 }
 .background {
   width: 100%;
-  display: flex;
-}
+  display: flex; 
+  }
 
 .container {
   flex: 0 1 700px;
   width: 100%;
   margin: auto;
   padding: 10px;
-}
+  position:relative;
+  right: 0px;
+  left: 300px;
+  }
 
 .screen {
   position: relative;
-  background: #d9d9d9;
+  background: #FCD8D4;
   border-radius: 15px;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, .25);
 }
@@ -26,7 +29,7 @@ button,input {
   display: flex;
   align-items: center;
   padding: 10px 20px;
-  background: #7B8788;
+  background: #28FFBF;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -40,7 +43,7 @@ button,input {
   height: 5px;
   margin-left: 3px;
   border-radius: 8px;
-  background: #d9d9d9;
+  background: #BCFFB9;
 }
 
 .screen-body {
@@ -68,26 +71,26 @@ button,input {
   padding: 10px 0;
   background: none;
   border: none;
-  border-bottom: 1px solid #4C4B4B;
-  color: #4C4B4B;
+  border-bottom: 1px solid #ec0f0f;
+  color: #ec0f0f;
   font-size: 14px;
   outline: none;
   transition: border-color .2s;
 }
 
 .app-form-control::placeholder {
-  color: #666;
+  color: rgb(47, 141, 94);
 }
 
 .app-form-control:focus {
-  border-bottom-color: #4C4B4B;
+  border-bottom-color: #DCFFCC;
 }
 
 .app-form-button {
   background: none;
   border: none;
   margin-left: 20px;
-  color: #666;
+  color: rgb(102, 102, 102);
   font-size: 14px;
   cursor: pointer;
   outline: none;
@@ -126,4 +129,19 @@ button,input {
   .screen-body-item {
     padding: 0;
   }
+  body{
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+body{
+  background-image: url("../img/background.jpg");
+  overflow: hidden;
+}
+h2 {
+  position: relative;
+  right: 0%;
+  left: 63%;
+  
 }

@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
 
     <title>Basic Banking System</title>
-    
   </head>
 
   <body>
@@ -21,6 +20,7 @@
   
       <div class="container-fluid">
       <!-- Introduction section -->
+          
             <div class="row intro py-1">
               <div class="col-sm-12 col-md">
                 <div class="heading text-center my-5">
@@ -34,10 +34,12 @@
             </div>
 
       <!-- Activity section -->
+           <div class="bg-color">
             <div class="row activity text-center">
                   <div class="col-md act">
-                    <img src="img/user.jpg" class="img-fluid">
+                    <img id="img-size" src="img/user.png" class="img-fluid">
                     <br>
+                    
                     <a href="createuser.php"><button>Create a User</button></a>
                   </div>
                   <div class="col-md act">
@@ -51,6 +53,7 @@
                     <a href="transactionhistory.php"><button>Transaction History</button></a>
                   </div>
             </div>
+            </div> 
       </div>
       <footer class="text-center mt-5 py-2">
         <p>&copy 2020. Made by <b>DURGESH PANDey</b> <br> The Sparks Foundation</p>
